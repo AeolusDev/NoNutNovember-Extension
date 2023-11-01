@@ -29,5 +29,7 @@ Please check the [wiki](https://github.com/AeolusDev/NoNutNovember-Extension/wik
 
 # ©Copyright
 © 2023 AeolusDev - All Rights Reserved.
+<br>
 Last Updated: 11/01/2023 19:00:28
+<br>
 You may use this for personal purposes but republication of the project by any means is not allowed for commercial gains
