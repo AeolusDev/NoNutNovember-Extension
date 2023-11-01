@@ -1,3 +1,14 @@
+const date = new Date();
+const monthNames = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+const month = monthNames[date.getMonth()];
+
+console.log(month);
+
+
+if(month === "November"){
 let manualRequest = false;
 let list = []; // Initialize the list of websites to redirect
 
@@ -37,4 +48,7 @@ function fetchList() {
     .catch(error => {
         console.error('An error has occurred:', error);
     });
+}
+}else if(month !== "November"){
+    console.log("NoNutNovember is over!")
 }
