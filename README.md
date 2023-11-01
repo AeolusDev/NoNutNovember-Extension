@@ -27,3 +27,7 @@ You can download the extension by visiting the [Releases Page](https://github.co
 ## Installation
 Please check the [wiki](https://github.com/AeolusDev/NoNutNovember-Extension/wiki) for the installation process.
 
+# ©Copyright
+© 2023 AeolusDev - All Rights Reserved.
+Last Updated: 11/01/2023 19:00:28
+You may use this for personal purposes but republication of the project by any means is not allowed for commercial gains
