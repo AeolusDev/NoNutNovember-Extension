@@ -1,0 +1,47 @@
+{
+  "name": "NoNutNovember Extension",
+  "version": "5.0.0",
+  "description": "Keeps you safe from all the horny stuff on the internet during NoNutNovember!",
+  "default_locale": "en",
+  "manifest_version": 3,
+  "author": "https://github.com/AeolusDev",
+  "icons": {
+    "16": "./assets/icon16.png",   
+    "48": "./assets/icon48.png", 
+    "128": "./assets/icon128.png"
+  },
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "NoNutNovember Extension",
+      "default_icon": {
+        "16": "./assets/icon16.png",   
+        "48": "./assets/icon48.png", 
+        "128": "./assets/icon128.png"
+      }
+  
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "webNavigation"  
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+      {
+          "matches": [
+              "https://*/*",
+              "http://*/*",
+              "https://www.reddit.com/r/nonutnovember/"
+          ],
+          "js": ["script.js"]
+      }
+  ],
+  "background": {
+    "service_worker": "background.js"
+}
+
+}
