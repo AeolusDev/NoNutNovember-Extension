@@ -29,10 +29,8 @@ chrome.webNavigation.onCompleted.addListener(function (details) {
 
 // Function to fetch the list of websites to redirect
 function fetchList() {
-    const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNhcHRhaW5jb29sNjMzMyIsImlhdCI6MTY5ODQ4NDc5M30.TzrNAy0qJb5faKAxHNm9WZkKMdWFzFKps7QOUJbw8g0'; // Replace with your actual token
-    fetch('https://kill-switch-api-666ccaeac838.herokuapp.com/api/get', {
+  fetch('https://kill-switch-api-666ccaeac838.herokuapp.com/api/get', {
         headers: {
-            'Authorization': token,
             'Content-Type': 'application/json'
         }
     })
