@@ -9,7 +9,7 @@ An extension created to help you win NoNutNovember. This extension will block yo
   ### 1. A Tracker
   To help you keep track of your progress. It will auto-update itself if it detects that you haven't opened a horny site during the NNN challenge. You'll also be able to           update it manually. 
 
-  ### 2. Add Custom Sites
+  ### 2. Add Custom Sites (Is Not Planned Any Time Soon)
   The ability to add your own sites. Currently, the database only contains famous sites or sites that are listed on Website Indexes such as:
   <br>
     ~ [FMHY](https://fmhy.pages.dev/nsfwpiracy/)
@@ -20,6 +20,9 @@ An extension created to help you win NoNutNovember. This extension will block yo
     <br>
     <br>
     Currently, the only way to add your own sites is by sending a request to the [Issues Page](https://github.com/AeolusDev/NoNutNovember-Extension/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+<br>
+
+<b>NOTE:<b> I do not plan to add this anytime soon because I still need a way to make sure the sites added are actually NSFW sites and not SFW sites added for trolling.
 
 ## Downloads
 You can download the extension by visiting the [Releases Page](https://github.com/AeolusDev/NoNutNovember-Extension/releases) on the right-hand side.
